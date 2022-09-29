@@ -1,8 +1,9 @@
-import React from 'react';
-function Nav() {
+import React, { useState } from 'react';
+
+function Nav({currentPage, setCurrentPage}) {
     return (
         <div>
-            
+            <
         </div>
     );
 };
