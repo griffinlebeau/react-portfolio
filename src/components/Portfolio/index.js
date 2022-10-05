@@ -2,9 +2,8 @@ import React, { useState } from 'react';
 import Modal from '../Modal';
 
 
-
-
 const Portfolio = () => {
+    const [isModalOpen, setIsModalOpen] = useState(false);
     const [projects] = useState([
         {
             title: "ReadMe Generator",
@@ -50,19 +49,22 @@ const Portfolio = () => {
       };
 
     return (
-        <div>
+        <div className='main'>
             {isModalOpen && (
             <Modal onClose={toggleModal} currentProject={currentProject} />
                 )}
-            {projects.map((project, i) => {
-                <div>
-                    <img src={require(`../../assets/projects/${i}.jpg`)}
-                    alt={project.title}
-                    key={project.title}
-                    onClick={() => toggleModal(project, i)} />
-                    <h3>{project.title}</h3>
-                </div>
-            })}
+            <div>
+                {projects.map((project, i) => (
+                    <div>
+                        <img src={require(`../../assets/projects/${i}.jpg`).default}
+                        alt={project.title}
+                        key={project.title}
+                        onClick={() => toggleModal(project, i)} />
+                        <h3>{project.title}</h3>
+                    </div>
+                    ))}
+            </div>
+           
         </div>
     )
 }
