@@ -4,14 +4,14 @@ import linkedin from '../../assets/small/linkedin.png';
 import github from '../../assets/small/github.png';
 
 const logoClass = {
-    height: 80,
-    width: 80,
+    height: 40,
+    width: 40,
     padding: 20
 }
 
 function Footer() {
     return (
-        <div style={{ height: 30}}>
+        <div style={{ backgroundColor: '#99F7AB', borderRadius: '5px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
             <img style={logoClass} src={twitter}
             alt='twitter-logo' />
             <a style={{ textDecoration: 'none' }} href='https://twitter.com/grifleb'>Twitter</a>

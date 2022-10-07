@@ -3,7 +3,7 @@ import Nav from './../Nav';
 
 function Header({currentPage, setCurrentPage}){
     return (
-        <div style={{ display: 'flex' }}>
+        <div style={{ display: 'flex', backgroundColor: '#99F7AB', borderRadius: '5px' }}>
             <div style={{ width: '20%' }}>
                 <h3>Griffin LeBeau</h3>
             </div>

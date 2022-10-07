@@ -10,7 +10,7 @@ const pages = useState(['about', 'portfolio', 'resume', 'contact']) ;
 const [currentPage, setCurrentPage] = useState(pages[0])
 
   return (
-    <div className="App">
+    <div className='App'>
       <>
       <Header
       currentPage={currentPage}

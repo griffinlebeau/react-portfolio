@@ -4,6 +4,7 @@ import ContactForm from '../Contact';
 import Portfolio from '../Portfolio';
 import Resume from '../Resume';
 
+
 function Main ({currentPage}) {
     let current = <About></About>;
     if(currentPage === 'contact'){
@@ -14,7 +15,7 @@ function Main ({currentPage}) {
     };
     if(currentPage === 'resume'){
         current = <Resume></Resume>
-    };
+    }
     return (current)
     }
 

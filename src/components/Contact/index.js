@@ -36,27 +36,27 @@ function ContactForm () {
     };
     
     return (
-        <section className='main'>
-          <h1>Contact me</h1>
+        <section style={{ backgroundColor: '#D6F9DD', display: 'flex', flexDirection: 'column', alignItems: 'center' }} className='main'>
+          <h1>Contact Me!</h1>
           <form onSubmit={handleSubmit}>
-            <div>
-              <label htmlFor="name">Name:</label>
-              <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
+            <div style={{ width: '100%', backgroundColor: '#EFBC9B', borderRadius: '5px' }}>
+              <h4 style={{ paddingTop: '10px' }}>Name</h4>
+              <input style={{ marginBottom: '5px' }} type="text" name="name" defaultValue={name} onBlur={handleChange} />
             </div>
-            <div>
-              <label htmlFor="email">Email address:</label>
-              <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
+            <div style={{ width: '100%', backgroundColor: '#EFBC9B', borderRadius: '5px' }}>
+              <h4 style={{ paddingTop: '10px' }}>Email</h4>
+              <input style={{ marginBottom: '5px' }} type="email" name="email" defaultValue={email} onBlur={handleChange} />
             </div>
-            <div>
-              <label htmlFor="message">Message:</label>
-              <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
+            <div style={{ width: '100%', backgroundColor: '#EFBC9B', borderRadius: '5px' }}>
+              <h4 style={{ paddingTop: '10px' }}>Message</h4>
+              <textarea style={{ marginBottom: '5px', width: '70%' }} name="message" rows="5" defaultValue={message} onBlur={handleChange} />
             </div>
             {errorMessage && (
               <div>
                 <p>{errorMessage}</p>
               </div>
             )}
-            <button type="submit">Submit</button>
+            <button style={{ margin: '10px' }} type="submit">Submit</button>
           </form>
         </section>
       );

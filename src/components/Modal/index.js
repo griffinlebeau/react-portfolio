@@ -1,6 +1,6 @@
 import React from 'react';
 const Modal = ({ onClose, currentProject }) => {
-    const { title, description, repo, deployed, index } = currentProject
+    const { title, description, repo, deployed, image } = currentProject
     return (
         <div>
             <div>
@@ -8,7 +8,7 @@ const Modal = ({ onClose, currentProject }) => {
             </div>
             <div>
                 <img
-                    src={require(`../../assets/projects/${index}.jpg`).default}
+                    src={require(image).default}
                     alt="current category"
                 />
             </div>
