@@ -38,7 +38,7 @@ function ContactForm () {
     return (
         <section style={{ backgroundColor: '#D6F9DD', display: 'flex', flexDirection: 'column', alignItems: 'center' }} className='main'>
           <h1>Contact Me!</h1>
-          <form onSubmit={handleSubmit}>
+          <form action="https://public.herotofu.com/v1/656a31d0-4680-11ed-a484-c1a2ba854bab" method="post" target="_blank">
             <div style={{ width: '100%', backgroundColor: '#EFBC9B', borderRadius: '5px' }}>
               <h4 style={{ paddingTop: '10px' }}>Name</h4>
               <input style={{ marginBottom: '5px' }} type="text" name="name" defaultValue={name} onBlur={handleChange} />
