@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.fefe2a44.css",
+    "main.js": "/react-portfolio/static/js/main.1ea23b45.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/LeBeau_Griffin_Original.jpg": "/react-portfolio/static/media/LeBeau_Griffin_Original.c9beed10fa0ec04d2b2e.jpg",
+    "static/media/Griffin-LeBeau-Resume.jpg": "/react-portfolio/static/media/Griffin-LeBeau-Resume.6bf56e6f5288b2cf1901.jpg",
+    "static/media/2.jpg": "/react-portfolio/static/media/2.9fdf41316b407a8801a8.jpg",
+    "static/media/1.jpg": "/react-portfolio/static/media/1.5d926bd2b2733d98a039.jpg",
+    "static/media/0.jpg": "/react-portfolio/static/media/0.b492e5ce3d3ae817ef32.jpg",
+    "static/media/3.jpg": "/react-portfolio/static/media/3.c4890e026599a1cdb75b.jpg",
+    "static/media/5.jpg": "/react-portfolio/static/media/5.445460b09540101fe70d.jpg",
+    "static/media/4.jpg": "/react-portfolio/static/media/4.97a17749b5f651191b23.jpg",
+    "static/media/twitter.png": "/react-portfolio/static/media/twitter.b413b75b86f226240110.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.fefe2a44.css.map": "/react-portfolio/static/css/main.fefe2a44.css.map",
+    "main.1ea23b45.js.map": "/react-portfolio/static/js/main.1ea23b45.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fefe2a44.css",
+    "static/js/main.1ea23b45.js"
+  ]
+}
