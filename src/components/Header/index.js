@@ -1,9 +1,14 @@
 import React from "react";
 import Nav from './../Nav';
+import { motion } from 'framer-motion';
 
 function Header({currentPage, setCurrentPage}){
     return (
-        <div style={{ display: 'flex', backgroundColor: '#99F7AB', borderRadius: '5px' }}>
+        <motion.div 
+        initial={{ y: -70 }}
+        animate={{ y: 0 }}
+        transition={{ duration: 0.7, ease: 'easeOut' }}
+        style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', backgroundColor: '#EDDFEF' }}>
             <div style={{ width: '20%' }}>
                 <h3>Griffin LeBeau</h3>
             </div>
@@ -11,7 +16,7 @@ function Header({currentPage, setCurrentPage}){
                 <Nav currentPage={currentPage}
                     setCurrentPage={setCurrentPage}></Nav>
             </div>
-        </div>
+        </motion.div>
     )
 };
 

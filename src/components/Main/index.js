@@ -3,12 +3,14 @@ import About from '../About';
 import ContactForm from '../Contact';
 import Portfolio from '../Portfolio';
 import Resume from '../Resume';
+import { motion } from "framer-motion";
+
 
 
 function Main ({currentPage}) {
-    let current = <About></About>;
+    let current =  <About></About>
     if(currentPage === 'contact'){
-        current = <ContactForm></ContactForm>
+        current =  <ContactForm></ContactForm>
     };
     if(currentPage === 'portfolio'){
         current = <Portfolio></Portfolio>
